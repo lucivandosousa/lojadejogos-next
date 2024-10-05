@@ -10,7 +10,7 @@ export default function Input({ type, placeholder }: InputProps) {
     <input
       type={type}
       placeholder={placeholder}
-      className='p-2 rounded bg-zinc-800 text-white outline-none transition-colors duration-300 ease-in-out focus:bg-gray-600'
+      className='w-full p-2 rounded bg-zinc-800 text-white outline-none transition-colors duration-300 ease-in-out focus:bg-gray-600 md:w-80'
     />
   )
 }
